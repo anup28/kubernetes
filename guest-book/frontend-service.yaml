@@ -8,7 +8,7 @@ metadata:
     tier: frontend
 spec:
   # type: NodePort
-  type: LoadBalancer
+  type: NodePort
   ports:
   - port: 80
   selector:
